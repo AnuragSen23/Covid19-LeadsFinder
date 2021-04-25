@@ -1,3 +1,16 @@
 pandas==1.0.5
 streamlit==0.79.0
 twint==2.1.21
+aiohttp
+aiodns
+beautifulsoup4
+cchardet
+dataclasses
+elasticsearch
+pysocks
+pandas>=0.23.0
+aiohttp_socks<=0.4.1
+schedule
+geopy
+fake-useragent
+googletransx
