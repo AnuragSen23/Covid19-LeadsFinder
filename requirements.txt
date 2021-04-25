@@ -1,6 +1,6 @@
 pandas==1.0.5
 streamlit==0.79.0
-twint==2.1.21
+twint==2.1.20
 aiohttp==3.7.4.post0
 aiodns==2.0.0
 beautifulsoup4==4.9.1
