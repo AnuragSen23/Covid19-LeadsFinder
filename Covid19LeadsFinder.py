@@ -7,11 +7,11 @@ import streamlit as st
 from PIL import Image
 import os
 
-consumer_key = "8AO6OU5ubyi4XO47b1C7Sjdlz"
-consumer_sec = "FS1usPrfPolvjLXbwGka5N8TWkOZhUsdxGmmTwuO016koesUSt"
+consumer_key = "***************************"
+consumer_sec = "***************************"
 
-access_token = "1151573806680592384-OUFeUtpsRFZM6jQxl1AG99NEjlY0Kt"
-access_token_sec = "KKHmkHkDGVaDof8XK4fKKI52DmNl4vZlaXnx85WRfd4Lr"
+access_token = "***************************"
+access_token_sec = "***************************"
 
 auth=tweepy.OAuthHandler(consumer_key,consumer_sec)
 auth.set_access_token(access_token,access_token_sec)
