@@ -8,7 +8,8 @@ pd.set_option('display.max_colwidth', -1)
 import streamlit as st
 from PIL import Image
 import os
-
+import asyncio
+asyncio.get_event_loop()
 image = Image.open(os.path.join('image_dem.jpg'))
 st.image(image)
 st.title('COVID19 - LeadsFinder')
