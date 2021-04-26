@@ -30,7 +30,7 @@ try:
         if verified:
             c.Verified = True
         c.Pandas = True
-        #c.Limit = 100
+        c.Limit = 1
         c.Hide_output = True
         twint.run.Search(c)
         def twint_to_table(columns):
