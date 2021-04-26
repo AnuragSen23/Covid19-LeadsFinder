@@ -1,4 +1,4 @@
-streamlit==0.80.0
+streamlit
 twint==2.1.20
 aiohttp
 aiodns
@@ -13,5 +13,5 @@ schedule
 geopy
 fake-useragent
 googletransx
-nest-asyncio==1.5.1
-asyncio==3.4.3
+nest-asyncio
+asyncio
