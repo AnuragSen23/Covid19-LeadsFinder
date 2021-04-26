@@ -1,3 +1,4 @@
+python==3.6
 streamlit
 twint==2.1.20
 aiohttp
