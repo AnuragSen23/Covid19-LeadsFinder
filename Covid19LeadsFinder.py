@@ -1,8 +1,5 @@
-#import warnings
-#warnings.filterwarnings('ignore')
-import asyncio
-loop = asyncio.get_event_loop()
-loop.is_running()
+import warnings
+warnings.filterwarnings('ignore')
 import twint
 import nest_asyncio
 nest_asyncio.apply()
