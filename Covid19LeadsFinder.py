@@ -1,7 +1,6 @@
 import warnings
 warnings.filterwarnings('ignore')
 import twint
-import twint
 import nest_asyncio
 nest_asyncio.apply()
 c = twint.Config()
