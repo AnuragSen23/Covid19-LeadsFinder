@@ -3,9 +3,6 @@
 import twint
 import nest_asyncio
 nest_asyncio.apply()
-c = twint.Config()
-c.Search = "Punjab"
-twint.run.Search(c)
 import pandas as pd
 pd.set_option('display.max_colwidth', -1)
 import streamlit as st
