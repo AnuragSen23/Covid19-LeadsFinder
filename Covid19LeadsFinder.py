@@ -2,9 +2,8 @@ import warnings
 warnings.filterwarnings('ignore')
 import twint
 import twint
-import asyncio
-loop = asyncio.new_event_loop()
-asyncio.set_event_loop(loop)
+import nest_asyncio
+nest_asyncio.apply()
 c = twint.Config()
 c.Search = "Punjab"
 twint.run.Search(c)
