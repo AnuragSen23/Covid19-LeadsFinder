@@ -80,14 +80,6 @@ try:
             st.table(st.markdown(Tweetdata2['Link']))
         except TypeError:
             pass
-
-        # res = Tweetdata.drop(['Date','Tweets'],axis=1)
-        # res = res.reset_index()
-        # try:
-        #     st.markdown("**Tweet Source:**")
-        #     st.table(st.markdown(res['Link']))
-        # except TypeError:
-        #     pass
     else:
         pass
     st.warning("This app scraps live twitter data by keyword search, thus I am not responsible for it's authenticity.✌️")
