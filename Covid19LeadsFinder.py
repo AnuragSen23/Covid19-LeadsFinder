@@ -9,7 +9,7 @@ import streamlit as st
 from PIL import Image
 import os
 import asyncio
-loop = asyncio.get_event_loop()
+loop = loop or asyncio.get_event_loop(
 image = Image.open(os.path.join('image_dem.jpg'))
 st.image(image)
 st.title('COVID19 - LeadsFinder')
