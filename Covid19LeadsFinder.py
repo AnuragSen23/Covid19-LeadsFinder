@@ -5,7 +5,6 @@ import pandas as pd
 pd.set_option('display.max_colwidth', -1)
 import streamlit as st
 from PIL import Image
-import seaborn as sns
 import os
 
 image = Image.open(os.path.join('image_dem.jpg'))
